@@ -1,0 +1,475 @@
+.swiper-slide{
+	position: relative;
+}
+.music{
+	position: fixed;
+	right: 5%;
+	top: 55%;
+	width: 15%;
+	height: 10%;
+	z-index: 100;	
+	-webkit-animation: s 2s linear infinite;
+	-o-animation: s 2s linear infinite;
+	animation: s 2s linear infinite;
+	-webkit-animation-play-state:running;
+}
+.music img{
+	width: 100%;
+	height: 100%;
+}
+.page1{
+	background: url(../images/pic4.png) center top no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.biaozhi{
+	width: 1.68rem;
+	height: 0.6rem;
+	position: absolute;
+	left: 0.38rem;
+	top: 0.46rem;
+}
+.biaozhi img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.page1>img{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 6.4rem;
+	height: 5.25rem;
+	overflow: hidden;
+}
+@-webkit-keyframes s{
+	0%{-webkit-transform:rotate(0deg)}
+	100%{-webkit-transform: rotate(360deg);}
+}
+.rotate1{
+	background: url(../images/twopic1.png)center center no-repeat ;
+	height: 6.58rem;
+    width: 6.06rem;
+    position: absolute;
+    left: 0.20rem;
+    top: 0.35rem;
+    -webkit-background-size: 60% 55%;
+    background-size: 60% 55%;
+}
+.rotate1 img{
+	position: absolute;	
+	display: block;
+}
+.rotate1 img{
+	width: 100%;
+	height: 100%;
+	left: 0.05rem;
+	top: 0.03rem;
+}
+.rotate1 img:first-child{
+	width: 60%;
+	height: 60%;
+	left: 1.2rem;
+	top: 1.3rem;
+	-webkit-animation: s 2s linear infinite;
+	-o-animation: s 2s linear infinite;
+	animation: s 2s linear infinite;
+}
+.jiantou{
+	position: absolute;
+	bottom: 5%;
+	left: 3rem;
+	width: 0.4rem;
+	height: 0.4rem;
+	-webkit-animation: ar 1s linear infinite;
+}
+.jiantou img{
+	width: 100%;
+	height: 100%;
+}
+@-webkit-keyframes ar{
+	0%{bottom: 5%;opacity: 1;}
+	100%{bottom: 8%;opacity: 0.5;}
+	}
+.page2{
+	background: url(../images/twoback.png) center top no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.word{
+	width: 100%;
+	margin-top: 32%;
+	text-align: center;
+}
+.word img{
+	width: 54%;
+}
+.page2>img{
+	width: 90%;
+	position: absolute;
+	bottom: 10%;
+	left: 5%;
+}
+.page3{
+	background: url(../images/twopic2.png) center top no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+.page3 .hand{
+	position: absolute;
+	width: 0.8rem;
+	height: 0.8rem;
+	left: 3.9rem;
+	top: 1.5rem;
+	z-index: 99;	
+	-webkit-animation: D 0.5s linear infinite;
+	-o-animation: D 0.5s linear infinite;
+	animation: D 0.5s linear infinite;
+}
+@-webkit-keyframes D{
+	0%{top: 1.5rem;left:3.9rem;}
+	50%{top: 1.4rem;left:4.0rem;}
+	100%{top: 1.3rem;left:4.1rem;}
+}
+.page3 .rotate1{
+	width: 2.33rem;
+	height: 2.33rem;
+	left: 0.35rem;
+	top: 0.57rem;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.page3 .rotate1 img{
+	width: 90%;
+	height: 90%;
+	left: 0.15rem;
+	top: 0.15rem;
+}
+.page3 .rotate1 img:first-child{
+	width: 105%;
+	height: 105%;
+	left: -0.05rem;
+	top: -0.05rem;
+}
+.qianlian,.dadeng,.luntai{
+	width: 2.65rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	color: #000;
+	border-bottom: 1px solid #000;
+	font-size: 0.48rem;
+	position: absolute;
+	z-index: 100;
+}
+.qianlian{
+	left: 2.82rem;
+	top:1.2rem;
+}
+.dadeng{
+	left: 1.7rem;
+	top: 2.3rem;
+	text-align: right;
+}
+.luntai{
+	left: 0.72rem;
+	top: 3.26rem;
+}
+.car{
+	background: url(../images/bigcar.png) no-repeat;
+	position: absolute;
+	top: 3.4rem;
+	left: -2.65rem;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	height: 9.53rem;
+	width: 15.76rem;
+}
+.car img{
+	position: absolute;
+	left: 2.6rem;
+    top: 4rem;
+    display: none;
+    width: 3.45rem;
+    height: 4.52rem;
+}
+.page4{
+	background-color: #000;
+}
+.page4 p{
+	color: #fff;
+	font-size: 0.4rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	margin-top: 3%;
+	width: 100%;
+	text-align: center;
+}
+.page4 .btns{
+	width: 100%;
+	height: 1rem;
+	position: absolute;
+	top: 5.5rem;
+	left: 0;
+	text-align: center;
+}
+.page4 .btns  button{
+	height: 100%;
+	width: 1rem;
+	background-color: #000;
+	border: none;
+	margin: 0rem 0.3rem;
+	outline: none;
+}
+.page4 .btns  button img{
+	height: 100%;
+}
+.page5{
+	background: url(../images/threepic1.png) center top no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.page5>img{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+.page5 .sun{
+	position: absolute;
+	top: -1.1rem;
+	width: 100%;
+	height: 100%;
+}
+.page5 .text{
+	width: 100%;
+	position: absolute;
+	left: 0.5rem;
+	top: 1rem;
+}
+.page5 .text img{
+	width: 80%;
+	margin: 0.2rem;
+}
+.page5 .text img:first-child{
+	width: 70%;
+}
+.page5 .hand{
+	position: absolute;
+	width: 0.8rem;
+	height: 0.8rem;
+	left: 4.5rem;
+	top: 1.4rem;
+	-webkit-animation: DU 0.5s linear infinite;
+	-o-animation: DU 0.5s linear infinite;
+	animation: DU 0.5s linear infinite;
+}
+.page5 .Fshow1,.page5 .Fshow2{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+	display: none;
+}
+.page5 .Fshow1 img:nth-child(1){
+	height: 3.25rem;
+    width: 5.53rem;
+    position: absolute;
+    top: 2.42rem;
+    left: 0.52rem;
+}
+.page5 .Fshow1 img:nth-child(2){
+	width: 6.20rem;
+    height: 4.59rem;
+    position: absolute;
+    bottom: 0.62rem;
+}
+.page5 .Fshow2 img:nth-child(1){
+	width: 6.40rem;
+    height: 3.62rem;
+    position: absolute;
+    top: 0.05rem;
+}
+.page5 .Fshow2 img:nth-child(2){
+	height: 3.56rem;
+    width: 4.89rem;
+    position: absolute;
+    bottom: 0.30rem;
+    left: 0.92rem;
+}
+.hand img{
+	width: 100%;
+	height: 100%;
+}
+@-webkit-keyframes DU{
+	0%{top: 1.2rem;left:4.3rem;}
+	50%{top: 1.3rem;left:4.4rem;}
+	100%{top: 1.4rem;left:4.5rem;}
+}
+.page6 .mengceng{
+	position: absolute;
+	z-index: 100;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	padding-top: 3rem;
+	width: 100%;
+	height: 73.5%;
+}
+.page6 .mengceng img{
+	width: 2rem;
+	height: 2rem;
+	-webkit-animation: s 2s linear infinite;
+	-o-animation: s 2s linear infinite;
+	animation: s 2s linear infinite;
+}
+.page6 .mengceng span{
+	position: absolute;
+	left: 2.6rem;
+	top: 3.5rem;
+	font-size: 0.6rem;
+	z-index: 101;
+	-webkit-animation: B 0.3s linear infinite;
+	-o-animation: B 0.3s linear infinite;
+	animation: B 0.3s linear infinite;
+}
+@-webkit-keyframes B{
+	0%{transform: scale(1,1);}
+	100%{transform: scale(1.1,1.1);}
+}
+.page7{
+	background-color: #000;
+}
+.page7 .bg{
+	width: 6.4rem;
+	height: 8.54rem;
+	position: absolute;
+}
+.page7 .bg img{
+	width: 100%;
+	height: 100%;
+}
+.page7 .mp3{
+	width: 4.47rem;
+	height: 2.1rem;
+	position: absolute;
+	bottom: 5%;
+}
+.page7 .mp3 img{
+	width: 100%;
+	height: 100%;
+}
+.page7 .hand{
+	position: absolute;
+	width: 0.8rem;
+	height: 0.8rem;
+	left: 2.9rem;
+	top: 9.5rem;
+	z-index: 99;	
+	-webkit-animation: diqi 0.5s linear infinite;
+	-o-animation: diqi 0.5s linear infinite;
+	animation: diqi 0.5s linear infinite;
+}
+@-webkit-keyframes diqi{
+	0%{top: 9.6rem;left:3.0rem;}
+	50%{top: 9.5rem;left:2.9rem;}
+	100%{top: 9.4rem;left:2.8rem;}
+}
+.page8{
+	background: url(../images/sixpic1s.png) center top no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+.page8 .sun{
+	position: absolute;
+	z-index: 2;
+	width: 6.68rem;
+	height: 7.36rem;
+}
+.page8 .show{
+	position: absolute;
+	z-index: 2;
+	width: 6.4rem;
+	height: 100%;
+}
+.page8 img{
+	width: 100%;
+	height: 100%;
+}
+.page8 .show img{
+	position: absolute;
+	height: 25%;
+}
+.page8 .show img:first-child{
+	height: 39%;
+}
+.page8 .show img:last-child{
+	bottom: 10%;
+	left: 0;
+	z-index: 3;
+	height: 30%;
+}
+.page8>.show>img:nth-child(2){
+	top: 39%;
+	width: 80%;
+	z-index: 4;
+}
+.page9 .Tshow{
+	width: 6.4rem;
+	height: 100%;
+	background-color: #000;
+}
+.page9 .Tshow img{
+	width: 6.4rem;
+	height: 33.3%;
+	position: absolute;
+}
+.page9 .Tshow img:nth-child(1){
+	top: 0;
+}
+.page9 .Tshow img:nth-child(2){
+	top: 33.3%;
+	height: 33.4%;
+}
+.page9 .Tshow img:nth-child(3){
+	top: 66.7%;
+}
+.page10{
+	background: url(../images/eightbc.png) center top no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+.page10 h2{
+	font-size: 0.48rem;
+	line-height: 0.48rem;
+	text-align: center;
+	margin-top: 1.9rem;
+}
+.page10 .input{
+	width: 4.40rem;
+    height: 0.46rem;
+    margin-top: 0.22rem;
+    margin-left: 1.08rem;
+    font-size: 0.24rem;
+    font-family: "微软雅黑";
+}
+.page10 .input input{
+	height: 0.46rem;
+    width: 3.44rem;
+    border: 1px solid #a5aeb7;
+    outline: none;
+    background-color: #c7ddef;
+    margin-left: 0.15rem;
+    font-size: 0.24rem;
+}
+.page10 button{
+	height: 0.56rem;
+    width: 3.44rem;
+    background-color: #ff6600;
+    color: white;
+    font-family: "微软雅黑";
+    font-size: 0.36rem;
+    border: none;
+    outline: none;
+    border-radius: 0.10rem;
+    margin-left: 1.73rem;
+    margin-top: 0.38rem;
+}
